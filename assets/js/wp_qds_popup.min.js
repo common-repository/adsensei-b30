@@ -1,0 +1,104 @@
+jQuery( document ).ready(function($) {
+    
+    // setting cookie when button is closed
+    function set_adsensei_Cookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    }
+    
+    setTimeout(() => {
+        $("#btn_close").click(function() {  
+            $(".adsensei-popupad").css("display", "none");
+            set_adsensei_Cookie('adsensei_popup','popup_ad',1);
+        });
+    }, 500);
+    // showing popup after respective time as per settings
+    var data_popuptype = $(".adsensei-popupad").attr('data-popuptype');
+    var data_timer = $(".adsensei-popupad").attr('data-timer');
+    
+    
+    if( data_popuptype && data_popuptype == "specific_time_popup" ){
+        setTimeout(() => {
+            $(".adsensei-popupad").css("display", "block");
+        }, data_timer);
+    }
+    // showing popup after respective scroll as per settings
+    var data_popuptype = $(".adsensei-popupad").attr('data-popuptype');
+    var data_percent = $(".adsensei-popupad").attr('data-percent');
+    
+    if( data_popuptype == "on_scroll_popup"  ){
+        window.addEventListener("scroll", () => {
+            let scrollTop = window.scrollY;
+            let docHeight = document.body.offsetHeight;
+            let winHeight = window.innerHeight;
+            let scrollPercent = scrollTop / (docHeight - winHeight);
+            let scrollPercentRounded = Math.round(scrollPercent * 100);
+            if( scrollPercentRounded>=data_percent  ) {
+                $(".adsensei-popupad").css("display", "block");
+            }
+            else{
+                $(".adsensei-popupad").css("display", "none");
+            }
+          });
+    }
+    
+     
+
+    /**
+     * we are here iterating on each group div to display all ads
+     * randomly or ordered on interval or on reload
+     */
+    $(".adsensei-groups-ads-json").each(function(){
+        var ad_data_json = $(this).attr('data-json');
+
+        var obj = JSON.parse(ad_data_json);
+
+        var ads_group_id = obj.adsensei_group_id;
+        var ads_group_refresh_type = obj.adsensei_popup_type;
+        var ads_group_ref_interval_sec = obj.adsensei_group_ref_interval_sec;
+        var ad_ids_ = obj.ads;
+        var ad_ids__length = Object.keys(ad_ids_).length;
+
+        var i=0;
+        if(ads_group_refresh_type ==='popupads'){
+            adsenseiShowAdsById__(ads_group_id, ad_ids_[i]);
+            var adsensei_ad_popupads = function () {
+                if(i >= ad_ids__length){
+                    i = 0;
+                }
+                var adbyindex ='';
+                adbyindex = ad_ids_[i];
+                adsenseiShowAdsById__(ads_group_id, adbyindex);
+                i++;
+
+                setTimeout(adsensei_ad_popupads, ads_group_ref_interval_sec);
+            };
+            // adsensei_ad_popupads();
+        }
+    });
+});
+
+function adsenseiShowAdsById__(ads_group_id, adbyindex){
+    var container = jQuery(".adsensei_ad_container_[data-id='"+ads_group_id+"']");
+    var container_pre = jQuery(".adsensei_ad_container__pre[data-id='"+ads_group_id+"']");
+    var content ='';
+    var image_src='';
+    switch(adbyindex.ad_type[0]){
+        case "ad_image":
+            if (window.matchMedia("(max-width: 640px)").matches && adbyindex.mobile_ad_image) 
+        {
+            image_src=adbyindex.mobile_ad_image;
+        } else {
+            image_src=adbyindex.ad_image;
+        }
+            content +='<div id="btn_close">x</div><a target="_blank" href="'+adbyindex.image_redirect_url+'"><img src="'+image_src+'"></a>';
+            container.html(content);
+            break;
+
+    }
+}

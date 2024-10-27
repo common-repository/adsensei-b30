@@ -1,0 +1,114 @@
+
+window.addEventListener("load", function(){
+jQuery( document ).ready(function($) {
+
+    // setting cookie when button is closed
+    function set_adsensei_Cookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    }
+    
+    setTimeout(() => {
+        $("#btn_close_video").click(function() {  
+            $(".adsensei-video").css("display", "none");
+            set_adsensei_Cookie('adsensei_video','video_ad',1);
+          });
+    }, 500);
+    
+ 
+    // showing video after respective time as per settings
+    var data_videotype = $(".adsensei-video").attr('data-videotype');
+    var data_videoposition = $(".adsensei-video").attr('data-position');
+    var data_timer = $(".adsensei-video").attr('data-timer');
+    if( data_videoposition == "v_right" ){
+        $(".adsensei-video").css("float", "right");
+        $(".adsensei-video").css("right", "10px");
+    }
+    if( data_videoposition == "v_left" ){
+        $(".adsensei-video").css("left", "0px");
+    }
+    if( data_videotype && data_videotype == "specific_time_video" ){
+        setTimeout(() => {
+            $(".adsensei-video").css("display", "block");
+        }, data_timer);
+    }
+    // showing video after respective scroll as per settings
+    var data_percent = $(".adsensei-video").attr('data-percent');
+    if( data_videotype == "after_scroll_video"  ){
+        window.addEventListener("scroll", () => {
+            let scrollTop = window.scrollY;
+            let docHeight = document.body.offsetHeight;
+            let winHeight = window.innerHeight;
+            let scrollPercent = scrollTop / (docHeight - winHeight);
+            let scrollPercentRounded = Math.round(scrollPercent * 100);
+            if( scrollPercentRounded>=data_percent  ) {
+                $(".adsensei-video").css("display", "block");
+            }
+          });
+    }
+     
+
+    /**
+     * we are here iterating on each group div to display all ads
+     * randomly or ordered on interval or on reload
+     */
+    $(".adsensei-video-ads-json").each(function(){
+        var ad_data_json = $(this).attr('data-json');
+
+        var obj = JSON.parse(ad_data_json);
+        var group__id = obj.adsensei_group_id;
+        var videourl = obj.viedo_url;
+        var videowidth = obj.viedo_width;
+        var videoheight = obj.viedo_height?obj.viedo_height:'auto';
+        var ads_group_refresh_type = obj.adsensei_video_type;
+        var ads_group_ref_interval_sec = obj.adsensei_group_ref_interval_sec;
+        var ad_ids = obj.ads;
+        var ad_ids_length = Object.keys(ad_ids).length;
+
+        var i=0;
+        var j = 0;
+        if(ads_group_refresh_type ==='videoads'){
+            j = 1;
+
+            adsenseiShowAdsById(group__id,videourl,videowidth, videoheight, ad_ids[i], j);
+            i++;
+
+            j++;
+            var adsensei_ad_videoads = function () {
+                if(i >= ad_ids_length){
+                    i = 0;
+                }
+                var adbyindex ='';
+                adbyindex = ad_ids[i];
+                adsenseiShowAdsById(group__id,videourl,videowidth, videoheight, adbyindex, j);
+                i++;
+
+                j++;
+                setTimeout(adsensei_ad_videoads, ads_group_ref_interval_sec);
+            };
+        }
+    });
+});
+
+function adsenseiShowAdsById(group__id, videourl, viedo_width, viedo_height, adbyindex, j){
+    var container = jQuery(".adsensei_ad_container_video[data-id='"+group__id+"']");
+    var data_redirect = jQuery(".adsensei-video").attr('data-redirect')?jQuery(".adsensei-video").attr('data-redirect'):false;
+    var content ='';
+    if(adbyindex.ad_type == "video_ads"){
+        if(data_redirect)
+        {
+            content +='<div id="btn_close_video">x</div><a href="'+data_redirect+'" target="_blank"><video id="video_frame" width="'+viedo_width+'" height="'+viedo_height+'" controls autoplay loop muted><source src='+videourl+' type="video/ogg"></video></a>';
+        }
+        else{
+            content +='<div id="btn_close_video">x</div><video id="video_frame" width="'+viedo_width+'" height="'+viedo_height+'" controls autoplay loop muted><source src='+videourl+' type="video/ogg"></video>';
+        }
+        
+        container.html(content);
+    }
+    }
+});

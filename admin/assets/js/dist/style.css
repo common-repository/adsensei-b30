@@ -1,0 +1,3781 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-ad-config-header {
+  margin-top: 5px; }
+
+.adsensei-ad-config-tab ul {
+  display: flex;
+  border: 1px solid #e7e7e7;
+  margin: 0;
+  overflow: hidden; }
+
+.adsensei-ad-config-tab ul li {
+  padding: 12px;
+  font-size: 14px;
+  width: 30.7%;
+  background: #F3F3F3;
+  color: #333;
+  text-align: center;
+  margin-bottom: 0px;
+  position: relative; }
+
+.adsensei-ad-config-tab ul li:after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  top: -1px;
+  right: -20px;
+  background-color: #f3f3f3;
+  border-top-right-radius: 0px;
+  -webkit-transform: scale(0.707) rotate(45deg);
+  transform: scale(0.7) rotate(45deg);
+  box-shadow: 3px -3px #e7e7e7;
+  z-index: 1; }
+
+.adsensei-ad-config-tab ul li.adsensei-selected, .adsensei-ad-config-tab ul li.adsensei-selected:after {
+  background-color: #fff; }
+
+#adsensei-ad-form {
+  background: #fff; }
+
+.adsensei-close-create-page {
+  font-size: 34px !important;
+  text-align: right;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  top: 15px;
+  right: 25px; }
+
+.adsensei-close-create-page a {
+  color: #333; }
+
+.adsensei-gree-notice-box {
+  height: 10px;
+  width: 607px;
+  padding: 15px;
+  margin: 20px;
+  background: #aeccae;
+  color: white; }
+
+.adsensei-gree-notice-box span {
+  float: right;
+  cursor: pointer;
+  font-size: 20px;
+  color: white; }
+
+.hover_data {
+  padding: 8px 0px 0px 6px !important;
+  background-clip: padding-box !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  min-width: 94px !important;
+  bottom: 10px !important; }
+
+.lazy_loader, .lazy_loader_l, .lazy_loader_g, .lazy_loader_a, .lazy_loader_c, .lazy_loader_r, .lazy_loader_t, .lazy_loader_rr, .lazy_loader_gp, .lazy_loader_ap, .lazy_loader_s, .lazy_loader_bl, .lazy_loader_ab, .lazy_loader_o, .lazy_loader_h, .lazy_loader_ge, .lazy_loader_al, .lazy_loader_rs {
+  border: 5px solid #f3f3f3;
+  animation: spin 0.7s linear infinite;
+  border-top: 5px solid #555;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: none;
+  bottom: 24px;
+  position: relative; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+#tooltip {
+  position: absolute;
+  left: 83px;
+  top: 53px; }
+
+#tooltip.left {
+  margin-left: -5px; }
+
+#tooltip .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: dimgrey; }
+
+#tooltip.left .tooltip-arrow {
+  top: 50%;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: dimgrey;
+  right: -5px;
+  left: auto; }
+
+#tooltip .tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-right-color: transparent;
+  border-style: solid; }
+
+#tooltip .tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  background-color: dimgrey;
+  border-radius: 4px; }
+
+#tooltip_2 {
+  position: absolute;
+  left: 36px;
+  top: 53px; }
+
+#tooltip_2.left {
+  margin-left: -5px; }
+
+#tooltip_2 .tooltip_2-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: dimgrey; }
+
+#tooltip_2.left .tooltip_2-arrow {
+  top: 50%;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: dimgrey;
+  right: -5px;
+  left: auto; }
+
+#tooltip_2 .tooltip_2-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-right-color: transparent;
+  border-style: solid; }
+
+#tooltip_2 .tooltip_2-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  background-color: dimgrey;
+  border-radius: 4px; }
+
+#tooltip_3 {
+  position: absolute;
+  left: 132px;
+  top: 53px; }
+
+#tooltip_3.left {
+  margin-left: -5px; }
+
+#tooltip_3 .tooltip_3-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: dimgrey; }
+
+#tooltip_3.left .tooltip_3-arrow {
+  top: 50%;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: dimgrey;
+  right: -5px;
+  left: auto; }
+
+#tooltip_3 .tooltip_3-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-right-color: transparent;
+  border-style: solid; }
+
+#tooltip_3 .tooltip_3-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  background-color: dimgrey;
+  border-radius: 4px; }
+
+#tooltip.right {
+  margin-left: 5px; }
+
+#tooltip.left {
+  margin-left: -5px; }
+
+#tooltip.top {
+  margin-top: -5px; }
+
+#tooltip.bottom {
+  margin-top: 5px; }
+
+#tooltip .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: dimgrey; }
+
+#tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: auto;
+  margin-left: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: dimgrey; }
+
+#tooltip.top .tooltip-arrow {
+  top: auto;
+  bottom: -5px;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: dimgrey; }
+
+#tooltip.left .tooltip-arrow {
+  top: 50%;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: dimgrey;
+  right: -5px;
+  left: auto; }
+
+#tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: dimgrey; }
+
+#tooltip .tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-right-color: transparent;
+  border-style: solid; }
+
+#tooltip .tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  background-color: dimgrey;
+  border-radius: 4px; }
+
+.adsensei_response-suc-wrap {
+  display: block;
+  position: fixed;
+  width: 96px;
+  pointer-events: none !important;
+  letter-spacing: normal;
+  z-index: 9999999;
+  bottom: 20px;
+  right: 61px; }
+
+.adsensei_response-suc-single {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 0 0 5px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: 500;
+  cursor: pointer; }
+
+.adsensei_response-suc-success {
+  background-color: #005af0;
+  color: #fff; }
+
+.adsensei_response-suc-error {
+  background-color: #d94f4f;
+  color: #fff; }
+
+.close-adsensei_response-suc-single {
+  position: absolute;
+  top: 10px;
+  right: 7px;
+  font-size: 20px;
+  cursor: pointer; }
+
+input#margin_bottom {
+  width: 79px; }
+
+a.view_reports_ {
+  text-decoration: none;
+  bottom: 6px;
+  position: relative;
+  padding: 0px 4px; }
+
+select#view_stats_report {
+  width: 200px;
+  margin-top: -4px; }
+
+#adsensei_report_table {
+  padding-left: 40px; }
+
+.stats_rep {
+  margin-left: 19px; }
+
+div#adsensei_report_table {
+  display: flex; }
+
+select#report_type {
+  margin-top: 20px; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-modal-popup-content {
+  max-width: 40% !important; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-form-field {
+  padding: 5px; }
+
+.adsensei-auto-fill-textarea {
+  width: 100%; }
+
+.adsensei-autofill {
+  cursor: pointer;
+  background: #6DA2E8;
+  color: #fff;
+  padding: 3px 9px;
+  font-size: 13px;
+  border-radius: 4px; }
+
+.adsensei-autofill:hover {
+  color: #fff;
+  background: #005aef; }
+
+.adsensei-autofill-div {
+  display: inline;
+  margin-left: 5px; }
+
+.adsensei-adsense-width-heigth {
+  display: inline-flex;
+  margin-left: 30px;
+  top: -17px;
+  position: relative; }
+
+#adsensei-ad-content .adsensei-autofill-div .adsensei-general-helper:after {
+  margin-top: -1px; }
+
+#adsensei-ad-content .adsensei-autofill-div .adsensei-general-helper {
+  background-color: #005aef; }
+
+.banner_image {
+  display: block;
+  padding-bottom: 20px;
+  max-width: 100%; }
+
+.adsensei-docs-link {
+  text-decoration: none;
+  font-size: 14px;
+  float: right; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+/* The Modal (background) */
+.adsensei-modal-popup {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  left: 75px;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+/* Modal Content */
+.adsensei-modal-popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 100%; }
+
+/* The Close Button */
+.adsensei-modal-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.adsensei-modal-close:hover,
+.adsensei-modal-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.adsensei-modal-error {
+  color: red; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-large-content {
+  top: 70px; }
+
+.adsensei-large-description {
+  padding: 12px 16px; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-ad-content h1 {
+  color: red; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-include {
+  background-color: yellowgreen;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.adsensei-exclude {
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.adsensei-panel-body tr.adsensei-tr-position {
+  display: inline-flex; }
+
+.adsensei-panel-body td:nth-child(1) {
+  margin-top: 15px; }
+
+.position_content div label {
+  padding: 10px; }
+
+.position_content div {
+  padding-bottom: 15px !important; }
+
+p.description_adr {
+  text-align: center;
+  margin: 0px 0px -16px 0px;
+  right: 15%;
+  position: relative;
+  bottom: 33px; }
+
+.ad_rotator_grid {
+  float: unset; }
+.adsensei-user-targeting table td {
+  width: 25%; }
+
+.adsensei-user-targeting table td .amp-support {
+  font-size: 11px;
+  color: red; }
+
+.adsensei-targeting .adsensei-title {
+  color: #9c27b0; }
+
+.adsensei-targeting .adsensei-user-targeting a .material-icons {
+  color: #9c27b0; }
+
+.adsensei-targeting .adsensei-target-item {
+  border: 1px solid rgba(156, 39, 176, 0.24);
+  background-color: rgba(156, 39, 176, 0.08); }
+
+.adsensei-user-targeting-label b {
+  color: #000000; }
+
+.targeting_get_pro {
+  text-transform: none; }
+.adsensei-user-targeting table td {
+  width: 25%; }
+
+.adsensei-visibility .adsensei-title {
+  color: #005aef; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-position-dropdown {
+  /*display: inline-flex;*/ }
+
+.position_content {
+  display: inline-flex;
+  padding-top: 20px; }
+
+#post_shortcode {
+  width: 132px; }
+
+#post_shortcode_php {
+  width: 380px; }
+
+.position_content div {
+  padding-bottom: 5px; }
+
+#repeat_paragraph + label {
+  text-transform: none; }
+
+.adsensei-settings-group .adsensei-tr-position .adsensei-position-dropdown select {
+  width: 311px; }
+
+.MuiPaper-root.MuiAlert-root.MuiAlert-standardError.check_plugin_exist.MuiPaper-elevation0 div {
+  padding-bottom: 5px  !important; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-position-dropdown {
+  /*display: inline-flex;*/ }
+
+.position_content {
+  display: inline-flex;
+  padding-top: 20px; }
+
+#post_shortcode {
+  width: 132px; }
+
+#post_shortcode_php {
+  width: 380px; }
+
+.position_content div {
+  padding-bottom: 5px; }
+
+#repeat_paragraph + label {
+  text-transform: none; }
+
+.adsensei-settings-group .adsensei-tr-position .adsensei-position-dropdown select {
+  width: 311px; }
+
+.MuiPaper-root.MuiAlert-root.MuiAlert-standardError.check_plugin_exist.MuiPaper-elevation0 div {
+  padding-bottom: 5px  !important; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei_form_msg {
+  font-size: 12px;
+  color: red;
+  font-weight: 500; }
+
+.adsensei_form_msg .material-icons {
+  font-size: 12px;
+  font-weight: 500; }
+
+.adsensei_form_error {
+  border: 2px solid red !important; }
+
+.adsensei-error {
+  color: red; }
+
+.adsensei-next {
+  font-weight: 400;
+  font-size: 20px;
+  float: right;
+  cursor: pointer; }
+
+.adsensei-prev {
+  font-weight: 400;
+  font-size: 20px;
+  float: right;
+  margin-right: 20px;
+  cursor: pointer; }
+
+#adsensei-ad-content {
+  width: 100%; }
+
+.adsensei-cover-spin {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9999; }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.adsensei-cover-spin::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 48%;
+  top: 40%;
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-color: #005af0;
+  border-top-color: transparent;
+  border-width: 4px;
+  border-radius: 50%;
+  -webkit-animation: spin .8s linear infinite;
+  animation: spin .8s linear infinite; }
+
+.adsensei-small-spinner {
+  border: 5px solid #f3f3f3;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+  border-top: 5px solid #555;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; }
+
+.adsensei-panel {
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 15px; }
+
+.adsensei-panel-body {
+  padding: 40px; }
+
+.adsensei-panel-body .adsensei-adsense-width-heigth label {
+  font-size: 12px;
+  DISPLAY: block;
+  WIDTH: 52PX;
+  margin-right: 10px; }
+
+.adsensei-panel-body .adsensei-adsense-width-heigth input {
+  width: 52PX;
+  font-size: 16px;
+  padding: 0; }
+
+.adsensei-panel-body td:nth-child(1) {
+  width: 240px; }
+
+.adsensei-panel-body label {
+  color: #000000;
+  font-size: 18px; }
+
+.adsensei-panel-body tr {
+  margin-bottom: 35px;
+  display: inline-block;
+  width: 100%; }
+
+.adsensei-panel-body tr:last-child {
+  margin-bottom: 0; }
+
+.adsensei-panel-body input {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  width: 278px; }
+
+.adsensei-panel-body input[type="checkbox"] {
+  position: relative;
+  width: 1.2em;
+  height: 1.2em;
+  color: #363839;
+  border: 1px solid #bdc1c6;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  cursor: pointer; }
+
+.adsensei-panel-body input[type="checkbox"]::before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 6px;
+  left: 11px;
+  width: 4px;
+  height: 10px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  opacity: 0; }
+
+.adsensei-panel-body input[type="checkbox"]:checked {
+  color: #fff;
+  border-color: #005aef;
+  background: #005aef; }
+
+.adsensei-panel-body input[type="checkbox"]:checked::before {
+  opacity: 1; }
+
+.adsensei-panel-body input[type="checkbox"]:checked ~ label::before {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+
+.adsensei-panel-body input:focus {
+  box-shadow: none; }
+
+.adsensei-panel-body select {
+  position: relative;
+  width: 220px; }
+
+.adsensei-panel-body select {
+  position: relative;
+  font-family: inherit;
+  background-color: transparent;
+  width: 225px;
+  height: 50px;
+  padding: 7px 10px 7px 20px;
+  font-size: 18px;
+  border-radius: 0;
+  border: none;
+  border: 1px solid #F3F3F3;
+  box-shadow: 0px 1px 0px #CFCFCF;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, #999 50%), linear-gradient(135deg, #999 50%, transparent 50%);
+  background-position: calc(100% - 25px) calc(1em + 6px), calc(100% - 19px) calc(1em + 6px), calc(100% - 2.5em) 0.5em;
+  background-size: 6px 6px, 6px 6px, 1px 1.5em;
+  background-repeat: no-repeat; }
+
+.adsensei-panel-body .adsensei-position-dropdown select {
+  width: auto; }
+
+/* Remove focus */
+.adsensei-panel-body select:focus {
+  outline: none; }
+
+/* Use custom arrow */
+.adsensei-panel-body select {
+  appearance: none;
+  -webkit-appearance: none; }
+
+.adsensei-panel-body select:after {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+  /* Styling the down arrow */
+  width: 0;
+  height: 0;
+  padding: 0;
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-top: 6px solid rgba(0, 0, 0, 0.12);
+  pointer-events: none; }
+
+/* active state */
+.adsensei-panel-body select:focus, .adsensei-panel-body select:valid {
+  transition: 0.2s ease all; }
+
+/* BOTTOM BARS ================================= */
+.select-bar {
+  position: relative;
+  display: block;
+  width: 350px; }
+
+.select-bar:before, .select-bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: red;
+  transition: 0.2s ease all; }
+
+.select-bar:before {
+  left: 50%; }
+
+.select-bar:after {
+  right: 50%; }
+
+/* active state */
+.select-text:focus ~ .select-bar:before, .select-text:focus ~ .select-bar:after {
+  width: 50%; }
+
+.adsensei-btn {
+  border: none;
+  color: white;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+.adsensei-btn:hover {
+  color: #fff; }
+
+.adsensei-btn-primary {
+  background-color: #005aef;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 10px 20px; }
+
+.adsensei-btn-default {
+  background-color: #e7e7e7;
+  color: black; }
+
+.adsensei-generic-icon {
+  cursor: pointer;
+  position: relative;
+  left: 8px;
+  top: -1px; }
+
+.adsensei-large-btn {
+  float: right; }
+
+.adsensei-modal-popup {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  left: 75px;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+/* Modal Content */
+.adsensei-modal-popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 100%; }
+
+.adsensei-modal-popup-content h3 {
+  margin: 0; }
+
+.adsensei-modal-content {
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px; }
+
+.adsensei-modal-content th {
+  font-weight: normal; }
+
+.adsensei-full-page-modal-content {
+  background-color: #fff;
+  position: relative;
+  max-width: 93%;
+  height: 100vh; }
+
+.adsensei-full-page-modal-content h3 {
+  position: relative;
+  top: 40px;
+  left: 52px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px; }
+
+.adsensei-full-page-modal-close {
+  float: right;
+  cursor: pointer; }
+
+.adsensei-full-page-modal .adsensei-close-create-page {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+  z-index: 100000001; }
+
+/* The Close Button */
+.adsensei-modal-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.adsensei-modal-close:hover,
+.adsensei-modal-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.adsensei-modal-error {
+  color: red; }
+
+.adsensei-switch {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 16px;
+  border: 20px; }
+
+.adsensei-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #b5b5b5;
+  transition: .4s;
+  border-radius: 20px; }
+
+.adsensei-slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 2px;
+  bottom: 3px;
+  background-color: #fff;
+  transition: .4s;
+  border-radius: 20px; }
+
+input:checked + .adsensei-slider {
+  background-color: #005af0;
+  border-radius: 30px; }
+
+input:focus + .adsensei-slider {
+  box-shadow: 0 0 1px #2196F3; }
+
+input:checked + .adsensei-slider:before {
+  transform: translateX(15px); }
+
+.adsensei-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0; }
+
+.adsensei-message {
+  display: block;
+  padding: 10px;
+  border: 1px solid #FBFBFB;
+  border-radius: 2px;
+  background-color: #F8F8F7;
+  position: absolute;
+  max-width: 500px;
+  z-index: 9999;
+  display: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-weight: normal;
+  line-height: 20px;
+  text-transform: none;
+  font-size: 14px; }
+
+.adsensei-target-item {
+  background-color: rgba(0, 126, 255, 0.08);
+  border-radius: 20px;
+  border: 1px solid rgba(0, 126, 255, 0.24);
+  color: #002638;
+  float: left;
+  font-size: 14px;
+  line-height: 1.4;
+  position: relative;
+  margin-bottom: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  vertical-align: top;
+  padding: 5px 25px 5px 10px; }
+
+.adsensei-user-targeting {
+  margin: 5px 0 0 0; }
+
+.adsensei-user-targeting-label {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 25px; }
+
+.adsensei-user-targeting h2 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #333;
+  margin: 0px; }
+
+.adsensei-user-targeting a .material-icons {
+  color: #005aef;
+  cursor: pointer; }
+
+.adsensei-user-targeting a span {
+  top: 5px;
+  position: relative;
+  left: 5px; }
+
+a.adsensei-nav-link-active {
+  border-bottom: 3px solid #005af0 !important;
+  position: relative;
+  padding: 19px 20px;
+  color: #005af0 !important; }
+
+.adsensei-ad-tab ul li .adsensei-nav-link .adsensei-nav-link-active {
+  color: #1A73E8;
+  border-bottom: 3px solid #1A73E8; }
+
+.adsensei-target-item-list {
+  width: 100%;
+  display: inline-block; }
+
+.adsensei-target-icon {
+  cursor: pointer;
+  float: right;
+  position: absolute;
+  right: 5px; }
+
+.adsensei-target-icon .material-icons {
+  font-size: 18px; }
+
+.adsensei-targeting-selection tr {
+  margin-bottom: 5px; }
+
+.adsensei-targeting-selection table td {
+  width: 270px !important;
+  padding: 15px 15px 0px 0; }
+
+.adsensei-target-label {
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  cursor: default;
+  padding: 2px 5px; }
+
+.adsensei-targeting-selection {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #000; }
+
+.adsensei-btn-spinner {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite; }
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+/* Progress Bar */
+.progress {
+  position: relative;
+  height: 4px;
+  display: block;
+  width: 100%;
+  background-color: #acece6;
+  border-radius: 2px;
+  background-clip: padding-box;
+  margin: 0.5rem 0 1rem 0;
+  overflow: hidden; }
+
+.progress .determinate {
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  bottom: 0;
+  background-color: #26a69a;
+  transition: width .3s linear; }
+
+.progress .indeterminate {
+  background-color: #26a69a; }
+
+.progress .indeterminate:before {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: left, right;
+  -webkit-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
+  animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
+
+.progress .indeterminate:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  will-change: left, right;
+  -webkit-animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  animation: indeterminate-short 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  -webkit-animation-delay: 1.15s;
+  animation-delay: 1.15s; }
+
+@-webkit-keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%; }
+  60% {
+    left: 100%;
+    right: -90%; }
+  100% {
+    left: 100%;
+    right: -90%; } }
+
+@keyframes indeterminate {
+  0% {
+    left: -35%;
+    right: 100%; }
+  60% {
+    left: 100%;
+    right: -90%; }
+  100% {
+    left: 100%;
+    right: -90%; } }
+
+@-webkit-keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+  60% {
+    left: 107%;
+    right: -8%; }
+  100% {
+    left: 107%;
+    right: -8%; } }
+
+@keyframes indeterminate-short {
+  0% {
+    left: -200%;
+    right: 100%; }
+  60% {
+    left: 107%;
+    right: -8%; }
+  100% {
+    left: 107%;
+    right: -8%; } }
+
+.adsensei-ad-create {
+  background-color: #005af0;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+.adsensei-logo {
+  height: 42px; }
+
+.adsensei-ad-header {
+  display: flex;
+  padding: 17px 0% 17px 2%;
+  align-items: center;
+  height: 35px;
+  background: #fff;
+  width: 98%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #D8D8D8;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 6px 0px; }
+
+.adsensei-ad-menu {
+  display: flex; }
+
+.adsensei-ad-tab ul li h2, .adsensei-ad-tab ul li {
+  font-size: 22px;
+  font-weight: 400; }
+
+.adsensei-ad-tab ul {
+  margin: 0; }
+
+.adsensei-ad-tab ul li a {
+  color: #111111;
+  text-decoration: none;
+  padding: 20px 30px; }
+
+.adsensei-ad-tab ul li a:focus {
+  box-shadow: none; }
+
+.adsensei-segment .adsensei-segment {
+  padding: 14px 40px 20px 40px; }
+
+.adsensei-ad-tab ul li {
+  display: inline-block;
+  margin-bottom: 0; }
+
+.adsensei-ad-tab ul li a.adsensei-btn {
+  border: 1px solid #1A73E8;
+  background: none;
+  padding: 11px 16px 11px 43px;
+  border-radius: 50px;
+  font-size: 18px;
+  position: relative;
+  margin: 0px 30px 0px 15px;
+  position: relative;
+  top: 0px; }
+
+.adsensei-ad-tab ul li a.adsensei-btn span {
+  font-size: 32px;
+  color: #1A73E8;
+  position: absolute;
+  top: 4px;
+  left: 5px; }
+
+.adsensei-ad-tab ul li a.adsensei-btn:hover {
+  background: #1873e8;
+  color: #fff; }
+
+.adsensei-ad-tab ul li a.adsensei-btn:hover span {
+  color: #fff; }
+
+.toplevel_page_adsensei-settings {
+  background: #F9F9F9; }
+
+.adsensei_editpage {
+  background: #fff; }
+
+.toplevel_page_adsensei-settings #wpcontent {
+  padding-left: 0; }
+
+.adsensei-settings-group {
+  padding: 30px 60px;
+  font-size: 15px;
+  color: #666;
+  text-transform: capitalize; }
+
+.adsensei-btn-navigate {
+  padding: 0px 60px; }
+
+.adsensei-btn-navigate .adsensei-btn-primary {
+  padding: 15px 25px; }
+
+.adsensei-ad-input input {
+  border: 0;
+  width: 350px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  font-size: 22px;
+  padding: 0; }
+
+.adsensei-ad-input {
+  padding: 12px 52px; }
+
+.adsensei-ad-input input:focus {
+  outline: 0;
+  box-shadow: none; }
+
+.adsensei-live-wrapper {
+  text-align: center; }
+
+.adsensei_live p {
+  font-size: 28px;
+  color: #333; }
+
+.adsensei_live span {
+  font-weight: bold; }
+
+.live-two {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 15px 0; }
+
+.live-two-left {
+  float: left; }
+
+.live-two-right a {
+  float: left;
+  color: #333;
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 1.6; }
+
+.live-two-right span {
+  display: block;
+  font-style: italic; }
+
+.live-three-one, .live-three-one:hover {
+  background: none;
+  color: #333;
+  font-size: 14px; }
+
+.live-three-two {
+  font-size: 16px;
+  padding: 14px 26px 14px 50px;
+  position: relative; }
+
+.live-three-two-dashboard {
+  position: absolute;
+  left: 19px;
+  top: 11px;
+  font-size: 26px; }
+
+.nodatatable a.adsensei-btn {
+  padding: 11px 16px 11px 43px;
+  position: relative; }
+
+.nodatatable a.adsensei-btn span {
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  color: rgba(255, 255, 255, 0.9); }
+
+.amp_configuration {
+  display: inline-block; }
+
+.amp_configuration img {
+  opacity: 50%; }
+
+.adsensei-got_pro {
+  font-size: 13px !important;
+  padding: 6px 12px;
+  border-radius: 60px;
+  background: -webkit-linear-gradient(to right, #eb3349, #f45c43);
+  background: linear-gradient(to right, #eb3349, #f45c43);
+  color: #fff !important;
+  box-shadow: 0em 0.15em 0.65em 0em rgba(0, 0, 0, 0.25);
+  margin: 0 auto 0 23px;
+  text-decoration: none;
+  font-weight: 500; }
+
+.adsensei-large-popup {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  z-index: 160000; }
+
+.adsensei-large-description {
+  padding: 0px 16px;
+  font-size: 16px;
+  line-height: 5.0; }
+
+.adsensei-large-popup-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  min-height: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+  background: #fcfcfc;
+  -webkit-font-smoothing: subpixel-antialiased; }
+
+.adsensei-large-close {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  text-align: center;
+  float: right;
+  font-size: 23px;
+  border-left: 1px solid #ccc;
+  line-height: 2; }
+
+.adsensei-large-popup-bglayout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 360px;
+  background: #000;
+  opacity: 0.7;
+  z-index: 159900; }
+
+.adsensei-large-popup-title {
+  left: 0;
+  right: 150px;
+  position: absolute;
+  top: 0;
+  height: 50px;
+  z-index: 200;
+  box-sizing: content-box; }
+
+.adsensei-large-popup-title h1 {
+  padding: 0 16px;
+  font-size: 22px;
+  line-height: 2.27272727;
+  margin: 0; }
+
+/*.adsensei-large-popup * {
+    box-sizing: content-box;
+}*/
+.adsensei-large-content {
+  border-bottom: none;
+  bottom: 0;
+  top: 50px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  height: auto;
+  width: auto;
+  margin: 0;
+  overflow: auto;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  padding: 15px 20px; }
+
+.adsensei-large-content .form-table span {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px; }
+
+.adsensei-large-content .form-table .color-pick-swatch {
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 2px; }
+
+.adsensei-large-content .form-table .color-pick-popover {
+  position: absolute;
+  z-index: 2; }
+
+.adsensei-large-content .form-table .color-pick-cover {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px; }
+
+.adsensei-large-content .form-table .color-pick-color {
+  width: 32px;
+  height: 28px;
+  border-radius: 2px;
+  border-right: 1px solid #ccc; }
+
+.adsensei-large-content .form-table .wp-color-result-text {
+  background: none;
+  border-left: none;
+  padding-left: 8px;
+  font-size: 12px;
+  padding-right: 6px;
+  height: 18px; }
+
+.adsensei-large-content .form-table td {
+  margin-bottom: 9px;
+  padding: 15px 10px;
+  line-height: 1.3;
+  vertical-align: middle;
+  text-align: left; }
+
+.adsensei-large-content b {
+  text-transform: uppercase;
+  font-size: 16px; }
+
+.adsensei-general-helper-new {
+  opacity: .5;
+  background-color: #005af0; }
+
+tr:hover .adsensei-general-helper-new, .adsensei-general-helper-new:hover {
+  opacity: 1; }
+
+.adsensei_alert {
+  color: #ffb229;
+  margin-top: 2px; }
+
+span.lifetime {
+  color: #00A66B; }
+
+input:checked + .adsensei-slider {
+  background-color: #005af0;
+  border-radius: 30px; }
+
+.grid_style_ad .adsensei-switch {
+  margin: 3px 0px 0px 15px; }
+
+input#grid_data_ad_column, input#grid_data_ad_row {
+  width: 100px; }
+
+.adsensei-ad-tab .adsensei-nav-link {
+  border-bottom: 3px solid transparent; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.alert_get_pro {
+  font-size: 12px; }
+
+.alert_get_pro .adsensei-got_pro.premium_features_btn {
+  margin: 0; }
+
+.adsensei-settings-saved-msg {
+  background: blue;
+  color: #fff;
+  display: block;
+  width: 100%;
+  background: greee;
+  padding: 10px;
+  margin: 0 0 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: arial,sans-serif;
+  line-height: 17px;
+  position: relative;
+  pointer-events: all !important;
+  display: block;
+  position: fixed;
+  width: 200px;
+  pointer-events: none !important;
+  letter-spacing: normal;
+  z-index: 9999999;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 5px 5px 5px grey; }
+
+.adsensei-settings-tab ul {
+  margin: 0;
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 20px 0px;
+  border-bottom: 1px solid #E1E1E1; }
+
+.adsensei-settings-tab ul li a {
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500; }
+
+.adsensei-settings-tab ul li a:focus {
+  outline: 0;
+  box-shadow: none; }
+
+.adsensei-settings-tab ul h2 {
+  margin: 0; }
+
+a.adsensei-nav-link-active {
+  border-bottom: 3px solid #005af0 !important;
+  position: relative;
+  padding: 19px 20px;
+  color: #005af0 !important; }
+
+.adsensei-settings-tab ul li {
+  display: inline-block;
+  line-height: 22px;
+  margin-bottom: 0; }
+
+.adsensei-settings-content {
+  background-color: #fff;
+  min-height: 500px;
+  display: inline-grid;
+  grid-template-columns: 1fr 250px;
+  width: 100%;
+  grid-gap: 30px; }
+
+.adsensei-settings-tab-container {
+  padding: 15px 25px 25px 30px; }
+
+.adsensei-settings-tab-container .form-table {
+  margin-top: 0; }
+
+.adsensei-settings-tab-container label {
+  font-size: 16px;
+  font-weight: normal;
+  color: #333; }
+
+.adsensei-settings-tab-container th {
+  width: 280px; }
+
+#adsensei-submit-button {
+  margin: 15px; }
+
+.adsensei-premium-cus {
+  margin-top: 5px;
+  width: 300px;
+  padding: 18px 20px;
+  margin: 4px 2px; }
+
+.adsensei-help-support input, textarea, select {
+  width: 100%; }
+
+.adsensei-help-support select {
+  max-width: 100%; }
+
+.adsensei-system-info {
+  width: 580px;
+  height: 400px;
+  font-family: Menlo, Monaco, monospace;
+  background: none;
+  white-space: pre;
+  overflow: auto;
+  display: block; }
+
+.adsensei-save-settings {
+  padding: 25px; }
+
+.importampforwpmsgprocessing {
+  background-color: #edf7ed;
+  padding: 6px 16px;
+  font-size: 0.875rem; }
+
+/** New CSS **/
+.adsensei-settings-tab-container .adsensei-hs {
+  display: inline-grid;
+  width: 100%;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px; }
+
+.adsensei-docm {
+  order: 1;
+  flex: 1 0 40%;
+  margin-top: 20px; }
+
+.adsensei-help-support {
+  width: 100%; }
+
+a.adsensei-doc-link {
+  background: #fff;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.13);
+  display: inline-block;
+  padding: 35px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease-in-out 0s;
+  box-sizing: border-box; }
+
+a.adsensei-doc-link:hover {
+  box-shadow: 0 7px 35px 0 rgba(0, 0, 0, 0.18); }
+
+.adsensei-doc-link h4 {
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #434264;
+  margin: 0px 0px 15px; }
+
+.adsensei-doc-link p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #5c6771;
+  margin: 0px 0px 15px; }
+
+.adsensei-doc-link span {
+  color: #005af0;
+  font-size: 14px;
+  font-weight: 500;
+  border-width: 0; }
+
+.adsensei-pre-cu {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between; }
+
+.adsensei-bnr {
+  margin-top: 30px; }
+
+@media (min-width: 1280px) {
+  .adsensei-docm {
+    width: 300px; } }
+
+@media (max-width: 1200px) {
+  .adsensei-settings-tab-container .adsensei-hs {
+    grid-gap: 30px; } }
+
+@media (max-width: 1180px) {
+  .adsensei-settings-content {
+    grid-template-columns: 1fr; } }
+
+@media (max-width: 980px) {
+  .adsensei-settings-content {
+    grid-template-columns: 1fr;
+    grid-gap: 10px; }
+  .adsensei-bnr {
+    margin-top: 0; } }
+
+@media (max-width: 600px) {
+  .adsensei-settings-tab-container .adsensei-hs {
+    grid-template-columns: 1fr;
+    grid-gap: 20px; } }
+
+.adblock_support .adsensei-modal-popup-content {
+  max-width: 980px !important; }
+
+.adblock_support .adsensei-modal-popup-content {
+  position: initial; }
+
+.adblock_support .adsensei-modal-popup-content {
+  max-width: 96% !important; }
+
+.adsensei-modal-popup.adblock_support {
+  position: fixed;
+  z-index: 1;
+  padding-top: 20px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 99999; }
+
+.adblock_support .adsensei-modal-popup-content h3 {
+  padding: 15px 20px !important;
+  border-bottom: 1px solid #ccc; }
+
+.adblock_support .adsensei-modal-close {
+  color: #444;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: relative;
+  border-left: 1px solid #ccc;
+  line-height: 2;
+  padding: 0px 15px; }
+
+.adblock_support .form-table td {
+  margin-bottom: 9px;
+  padding: 15px 10px;
+  line-height: 1.3;
+  vertical-align: middle;
+  text-align: left; }
+
+.adblock_support .adsensei-modal-content {
+  background: #fff; }
+
+.adblock_support .notice_type span {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px; }
+
+.adblock_support .adsensei-save-close {
+  width: 100%;
+  display: inline-block;
+  position: sticky;
+  bottom: 20px;
+  top: auto;
+  right: 0;
+  background: #f1f1f1;
+  left: 0; }
+
+.adsensei-modal-content.adsforwp-adsensei-popup {
+  text-align: left; }
+
+.adsensei-modal-content.adsforwp-adsensei-popup .adsensei-switch {
+  margin-left: 40px; }
+
+input.adsensei-premium-cus {
+  width: 300px;
+  float: left;
+  height: 10px;
+  padding: 18px 20px;
+  margin: 4px 2px; }
+
+.adsensei-message {
+  display: block;
+  padding: 10px;
+  border: 1px solid #FBFBFB;
+  border-radius: 2px;
+  background-color: #F8F8F7;
+  position: absolute;
+  max-width: 500px;
+  z-index: 9999;
+  display: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  font-weight: normal;
+  line-height: 20px;
+  text-transform: none;
+  font-size: 14px; }
+
+.adsensei-icon-chevron-right:before {
+  content: "\E900"; }
+
+.adsensei-icon-chevron-left:before {
+  content: "\E900";
+  transform: rotate(180deg); }
+
+.adsensei-icon-chevron-down:before {
+  content: "\E901";
+  transform: scale(0.6); }
+
+.adsensei-icon-chevron-up:before {
+  content: "\E902";
+  top: 50%;
+  transform: translateY(-50%) scale(0.6); }
+
+.adsensei-icon-rollback:before {
+  content: "\E903"; }
+
+.adsensei-icon-addon:before,
+.adsensei-addonSubMenuItem:before {
+  content: "\E904"; }
+
+.adsensei-icon-addons:before,
+#adsensei-nav-addons:before {
+  content: "\E905"; }
+
+.adsensei-icon-book:before {
+  content: "\E906"; }
+
+.adsensei-icon-cdn:before,
+#adsensei-nav-page_cdn:before {
+  content: "\E907"; }
+
+.adsensei-icon-database:before,
+#adsensei-nav-database:before {
+  content: "\E908"; }
+
+.adsensei-icon-export:before {
+  content: "\E909"; }
+
+.adsensei-icon-files:before,
+#adsensei-nav-cache:before {
+  content: "\E90A"; }
+
+.adsensei-icon-help:before {
+  content: "\E90B"; }
+
+.adsensei-icon-home:before,
+#adsensei-nav-dashboard:before {
+  content: "\E90C"; }
+
+.adsensei-icon-import:before {
+  content: "\E90D"; }
+
+.adsensei-icon-important:before {
+  content: "\E90E"; }
+
+.adsensei-icon-information:before {
+  content: "\E90F"; }
+
+.adsensei-icon-information2:before {
+  content: "\E910"; }
+
+.adsensei-icon-interrogation:before {
+  content: "\E911"; }
+
+.adsensei-icon-media:before,
+#adsensei-nav-media:before {
+  content: "\E912"; }
+
+.adsensei-icon-plus:before {
+  content: "\E913"; }
+
+.adsensei-Page#dashboard .adsensei-infoAccount:before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: #e0e4e9;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 6px;
+  text-align: center;
+  top: 2px;
+  font-size: 0.5rem;
+  line-height: 1.625; }
+
+.adsensei-Page#dashboard .adsensei-infoAccount.adsensei-isValid {
+  color: #00a66b; }
+
+.adsensei-infoAccount.adsensei-isValid:before {
+  content: "\E920";
+  font-family: "adsensei-icomoon";
+  speak: none;
+  background: #3ece9d;
+  top: -1px;
+  position: relative;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 6px;
+  text-align: center;
+  top: 0px;
+  font-size: .5rem;
+  line-height: 1.625; }
+
+.adsensei-renewal-banner {
+  background: #ffd400;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 8px; }
+
+.adsensei-renew-message {
+  margin: 0 16px; }
+
+.adsensei-renew-message > p {
+  font-size: 18px;
+  margin: 0 0;
+  font-weight: normal; }
+
+.adsensei-renew-cta {
+  display: block;
+  background: #2b2b2b;
+  border-radius: 64px;
+  color: #ffd400;
+  font-size: 15px;
+  line-height: 1.125;
+  font-weight: 600;
+  padding: 9px 14px;
+  text-decoration: none; }
+
+.adsensei-renew-cta:hover,
+.adsensei-renew-cta:active,
+.adsensei-renew-cta:focus {
+  color: #fff; }
+
+.adsensei-renew-cta::after {
+  content: "\2192";
+  font-weight: normal;
+  margin-left: 8px; }
+
+.adsensei-button {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  padding: 8px 24px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(50, 50, 93, 0.11);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: -0.08px;
+  font-weight: bold;
+  border-radius: 4px;
+  color: #fff !important;
+  white-space: nowrap;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: all 200ms ease-out;
+  -webkit-transition: all 200ms ease-out;
+  font-size: 0.8125rem;
+  line-height: 1.53846;
+  bottom: 0px; }
+
+.adsensei-button:hover,
+.adsensei-button:focus {
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0px 7px 14px rgba(50, 50, 93, 0.25); }
+
+.adsensei-button--small {
+  padding: 6px 5px;
+  letter-spacing: 0px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.81818;
+  text-transform: inherit; }
+
+.adsensei-button-btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  background: #005aef; }
+
+.adsensei-button-btn:before {
+  position: absolute;
+  line-height: 1.33333; }
+
+.adsensei-button--fixed {
+  position: fixed;
+  display: flex;
+  padding: 8px 16px;
+  right: 24px;
+  bottom: 32px;
+  border-radius: 16px; }
+
+.adsensei-button--fixed:before {
+  font-size: 1.125rem;
+  line-height: 1;
+  margin-right: 8px; }
+
+.adsensei-button:focus {
+  outline: none;
+  color: #fff !important; }
+
+.adsensei-infoAccount.adsensei-isValid {
+  color: #00A66B;
+  font-weight: bold;
+  margin-left: 5px;
+  display: inline-block; }
+
+.adsensei-infoAccountt.adsensei-isValids {
+  color: #00A66B;
+  font-weight: bold;
+  margin-left: 5px;
+  display: inline-block; }
+
+.activated_p {
+  display: contents; }
+
+.activated_messg {
+  font-size: initial;
+  font-weight: 600; }
+
+.Key_msg {
+  margin-top: 10px; }
+
+.adsensei-optionHeader .adsensei-title2 {
+  line-height: 24px;
+  color: #005af0;
+  padding-right: 40px;
+  font-weight: 600;
+  font-size: 16px; }
+
+.adsensei-title2 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: bold;
+  letter-spacing: -0.02em; }
+
+.adsensei-icon-user:before {
+  content: "\E914";
+  top: 11px;
+  right: 13px;
+  font-size: 13px; }
+
+.adsensei-bnr-inv {
+  margin-top: 30px; }
+
+.adsensei_fivestar.updated {
+  display: none; }
+
+.q-r-m {
+  font-weight: bold; }
+
+.adsensei-Page-inner {
+  border: 1px solid #ececec;
+  padding: 0 0 20px 15px;
+  margin-top: 20px; }
+
+.pro_key_btn {
+  width: 199px;
+  float: left; }
+
+.q-r-m-e {
+  font-weight: bold;
+  color: #FF0000; }
+
+.adsensei-isinValid {
+  color: red;
+  font-weight: bold;
+  margin-left: 5px;
+  display: inline-block; }
+
+.getprocheckbox {
+  font-size: 11px;
+  background: #546e7a;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-left: 2px; }
+
+a.adsensei_link {
+  font-size: 11px;
+  background: #546e7a;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-left: 2px;
+  text-decoration: none; }
+
+.RoleBasedAccess {
+  width: 82%; }
+  .RoleBasedAccess + a.adsensei-general-helper.adsensei-general-helper-new {
+    margin-top: -34px; }
+
+th.blocked_data_main {
+  display: block; }
+
+td.blocked_data {
+  display: block; }
+
+span.blocked_ids {
+  padding-right: 10px;
+  cursor: pointer;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #1d2327;
+  display: inline-block;
+  margin: -8px 0px -7px 0px; }
+
+p.blocked_values {
+  cursor: default;
+  line-height: 1;
+  font-weight: 600;
+  color: #1d2327; }
+
+input#btn_clear_all_ips {
+  background-color: #005aef;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  padding: 3px 18px;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 400; }
+
+.no_id {
+  padding-top: 10px; }
+
+span.blocked_ids_in {
+  vertical-align: top;
+  line-height: 1.3;
+  font-weight: 600; }
+
+a.blocked_ids_href {
+  right: 8px; }
+
+td.b_in, tr.b_in {
+  border: 1px solid #dddddd;
+  padding: 8px; }
+
+div#blocked_id_main {
+  padding-top: 10px; }
+
+table#blocked_id_table {
+  border-collapse: collapse; }
+
+td.b_in_ {
+  border: 1px solid #dddddd;
+  padding: 8px; }
+
+tr.b_in_ {
+  font-weight: bold; }
+
+select#abtesting_report {
+  margin: 0px 0px 5px 0px; }
+
+.adsensei-refresh {
+  margin-left: 5px;
+  background: #005aef;
+  color: #fff;
+  font-size: 16px !important;
+  padding: 2px;
+  border-radius: 4px;
+  vertical-align: bottom;
+  cursor: pointer; }
+
+.adsensei-user {
+  margin-left: 5px;
+  color: #fff;
+  padding: 2px;
+  vertical-align: bottom; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-ad-search-box input {
+  width: 100%;
+  max-width: 100%;
+  height: 60px;
+  vertical-align: top;
+  border: 1px solid #E1E1E1;
+  border-radius: 0px;
+  margin: 0 0px !important;
+  font-size: 16px;
+  color: #666666;
+  padding-left: 60px;
+  background-size: 22px;
+  background-position: 20px; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-ad-list-table-div {
+  background-color: #fff; }
+
+.adsensei-ad-table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.adsensei-ad-table tr {
+  border-bottom: 1px solid #E1E1E1; }
+
+.adsensei-ad-table tbody tr:hover {
+  background: #f1f3f4; }
+
+.adsensei-ad-table td {
+  padding: 12px 25px;
+  line-height: 1.5;
+  color: #333;
+  font-size: 15px;
+  text-transform: capitalize; }
+
+.adsensei-ad-table td.adsensei_no_transform {
+  text-transform: none; }
+
+.adsensei-ad-table td:nth-child(2) img {
+  position: relative;
+  top: 2px;
+  margin-right: 3px; }
+
+.adsensei-ad-table td:nth-child(3) {
+  color: #666; }
+
+.adsensei-ad-table td:nth-child(4) {
+  padding: 0; }
+
+.adsensei-ad-table th {
+  padding: 14px 10px 14px 25px;
+  line-height: 2;
+  text-align: left;
+  font-size: 13px;
+  color: #5f6368;
+  font-weight: 600; }
+
+.adsensei-ad-label-draft {
+  color: #5f6368;
+  font-family: Roboto,Arial,sans-serif;
+  font-size: .75rem;
+  font-weight: 400;
+  letter-spacing: .025em;
+  line-height: 1rem;
+  background-color: #f1f3f4;
+  border-radius: 4px;
+  padding: 2px 4px; }
+
+.ad_logging .adsensei-ad-table th:nth-child(4) {
+  color: #5f6368; }
+
+.adsensei-ad-table th:nth-child(4) {
+  color: transparent; }
+
+.adsensei-action-div a.adsensei-edit-btn, .adsensei-action-div a.adsensei-more-btn {
+  cursor: pointer;
+  color: #555;
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 0px;
+  line-height: 60px; }
+
+.adsensei-action-div a:hover {
+  background: rgba(0, 0, 0, 0.04); }
+
+.adsensei-action-div a .material-icons {
+  width: 24px;
+  height: 24px; }
+
+.adsensei-action-div a .material-icons:focus, .adsensei-action-div a:focus {
+  outline: 0;
+  box-shadow: none; }
+
+.adsensei-ad-table th:nth-child(4) {
+  color: transparent; }
+
+.adsensei-edit-btn {
+  text-decoration: none; }
+
+.adsensei-action-div {
+  position: relative; }
+
+.adsensei-action-div a {
+  cursor: pointer; }
+
+.adsensei-more-icon-box {
+  position: absolute;
+  top: 0px;
+  left: -100px;
+  z-index: 100000;
+  float: left;
+  min-width: 125px;
+  padding: 20px 10px 10px 10px;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
+
+.adsensei-more-icon-box ul {
+  margin: 0; }
+
+.adsensei-more-icon-box li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 6px 5px;
+  margin: 0;
+  /* text-align: center;*/ }
+
+.adsensei-more-icon-box li a {
+  font-size: 13px;
+  color: #666; }
+
+.adsensei-action-div .adsensei-more-icon-box .material-icons {
+  font-size: 16px;
+  color: #666;
+  margin-right: 2px;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 3px; }
+
+.adsensei-more-icon-box li:last-child {
+  border-bottom: 0; }
+
+.adsensei-action-div .adsensei-more-icon-box a:hover {
+  background: none; }
+
+.adsensei-more-icon-box-close {
+  float: right;
+  cursor: pointer;
+  position: relative;
+  top: -18px;
+  right: -7px; }
+
+.adsensei-action-div .adsensei-more-icon-box-close .material-icons {
+  font-size: 16px; }
+
+.nodatatable td {
+  text-align: center;
+  height: 250px; }
+
+.first_ad_main {
+  padding: 50px; }
+
+.first_ad_main h3 {
+  font-size: 25px;
+  margin: 0 0 22px 0; }
+
+.first_ad {
+  margin-bottom: 15px;
+  display: block;
+  color: #444;
+  font-size: 15px; }
+
+.fakebox {
+  padding: 8px 35px 22px 35px;
+  display: inline-block;
+  box-shadow: 0px 0px 4px #0000002b;
+  border-radius: 14px;
+  position: relative; }
+
+.fakebox_close:before {
+  content: "x";
+  position: absolute;
+  right: -8px;
+  border-radius: 40px;
+  background: #fff;
+  box-shadow: 0px 0px 3px #00000040;
+  height: 22px;
+  width: 22px;
+  top: -8px;
+  color: #666;
+  font-size: 12px;
+  line-height: 22px;
+  cursor: pointer; }
+
+.fakebox h3 {
+  margin-bottom: 12px;
+  font-size: 18px; }
+
+.fakebox .text {
+  margin-bottom: 12px;
+  font-size: 13px; }
+
+.fakebox .yes {
+  padding: 0;
+  background: #666;
+  color: #fff;
+  font-size: 13px;
+  margin: 0 10px;
+  padding: 7px 12px; }
+
+.fakebox .no {
+  padding: 0;
+  background: #666;
+  color: #fff;
+  font-size: 13px;
+  padding: 7px 12px; }
+
+.nodatadiv {
+  text-align: center;
+  padding: 0px 0px 50px 0px; }
+
+.nodatadiv h3, .nodatadiv strong {
+  text-transform: capitalize; }
+
+.nodatadiv .first_ad_main .adsensei-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; }
+
+.nodatadiv .first_ad_main .material-icons {
+  margin-right: 6px; }
+
+.static_num {
+  font-weight: bold; }
+
+a.view_reports_ {
+  top: 0px;
+  background: #444;
+  color: #fff !important;
+  border-radius: 4px;
+  padding: 4px 10px; }
+
+.view_reports_:hover {
+  background: #444 !important; }
+
+a.delete_ad {
+  padding-right: 16px; }
+
+a.ad_draft {
+  padding-left: 12px; }
+
+.quad-ad-network-list li img {
+  max-width: 40px;
+  top: 0; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-ads-pagination {
+  display: inline-block;
+  margin-top: 0px;
+  font-size: 15px;
+  font-weight: 500; }
+
+.adsensei-ads-pagination a {
+  color: black;
+  float: left;
+  padding: 9px 16px;
+  text-decoration: none;
+  border-radius: 3px; }
+
+.adsensei-ads-pagination .material-icons {
+  font-size: 18px;
+  padding: 9px 10px; }
+
+.adsensei-ads-pagination a.adsensei-page-active {
+  background-color: #005af0;
+  color: white; }
+
+.adsensei-ads-pagination a:hover:not(.adsensei-page-active) {
+  background-color: #ddd; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-search-box-panel {
+  display: flex;
+  width: 100%;
+  margin-top: 20px; }
+
+.adsensei-search-box {
+  display: inline-block;
+  width: 100%; }
+
+.adsensei-modal-popup-content h3 {
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 600;
+  padding-bottom: 20px; }
+
+.adsensei-modal-popup-content h3 span {
+  color: red; }
+
+.adsensei-modal-popup-txt p {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 1.5; }
+
+.adsensei-modal-popup-content {
+  max-width: 480px !important;
+  border-radius: 8px;
+  padding: 0px !important;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 30%; }
+
+.adsensei-modal-popup-txt {
+  padding: 30px 40px; }
+
+.adsensei-modal-content {
+  text-align: right;
+  margin: 0 !important;
+  padding: 15px 20px;
+  background: #eee;
+  box-sizing: border-box;
+  border-radius: 0px 0px 8px 8px; }
+
+.adsensei-btn.adsensei-btn-delete, .adsensei-btn.adsensei-btn-delete:hover {
+  background-color: #1A73E8 !important;
+  color: #fff !important;
+  padding: 10px 30px;
+  border-radius: 6px; }
+
+a.adsensei-btn-cancel {
+  color: #666 !important;
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-size: 16px; }
+
+a.adsensei-btn-cancel:hover {
+  background: #666 !important;
+  color: #fff !important; }
+.adsensei-ad-networks li {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 0px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+  transition: 0.3s;
+  padding: 3px 0px 3px 10px;
+  cursor: pointer; }
+
+.adsensei-ad-networks li:hover {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 6px;
+  transition: 0.4s;
+  padding: 3px 0px 3px 10px;
+  margin: 0 0 0px 0;
+  cursor: pointer; }
+
+.adsensei-ad-networks ul {
+  padding: 0px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px 17px;
+  margin: 0; }
+
+.adsensei-side-part {
+  width: 10%; }
+
+.adsensei-nav-link img {
+  max-width: 36px;
+  width: auto;
+  top: 4px;
+  position: relative; }
+
+a.adsensei-nav-link:focus {
+  box-shadow: none; }
+
+.adsensei-full-page-modal {
+  position: absolute;
+  left: 0;
+  /* top: -18px; */
+  right: 0px;
+  z-index: 9;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+  padding-bottom: 100px;
+  height: 100%; }
+
+.adsensei-full-page-modal-content {
+  max-width: 100%;
+  height: 100%; }
+
+.adsensei-full-page-modal-content h3 {
+  position: relative;
+  top: 42px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  margin: 0;
+  z-index: 99; }
+
+.adsensei-full-page-modal .adsensei-close-create-page {
+  top: 35px; }
+
+.adsensei-ad-networks {
+  padding: 1% 2% 2% 2%;
+  margin: 70px 10px 0 20px;
+  width: 40%;
+  border: 1px solid #eee; }
+
+@media (max-width: 1199px) {
+  .adsensei-ad-networks ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .quad-ad-network-list {
+    width: 85%; } }
+
+@media (max-width: 768px) {
+  .adsensei-ad-networks ul {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px 20px; } }
+
+@media (max-width: 591px) {
+  .adsensei-ad-networks ul {
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 450px) {
+  .adsensei-ad-networks {
+    padding: 60px 20px; }
+  .adsensei-full-page-modal-content h3 {
+    padding-left: 20px; }
+  .adsensei-full-page-modal .adsensei-close-create-page {
+    right: 20px; } }
+
+@media (max-width: 330px) {
+  .adsensei-ad-networks ul {
+    grid-template-columns: 1fr; } }
+
+.gopropopup .adsensei-large-close {
+  border: none; }
+
+.gopropopup .adsensei-modal-content {
+  text-align: center; }
+
+.gopropopup .adsensei-modal-popup-heading {
+  font-size: 26px;
+  /* font-weight: bold; */
+  text-align: center;
+  line-height: 30px;
+  color: #222;
+  padding: 26px 0; }
+
+.gopropopup p {
+  text-align: center; }
+
+.gopropopup .adsensei-got_pro {
+  padding: 16px 30px;
+  font-size: 18px !important; }
+
+.gopropopup .adsensei-modal-content {
+  padding: 38px 20px; }
+
+a.vendor {
+  display: block;
+  background: #fff;
+  text-decoration: unset;
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 0px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+  transition: 0.3s;
+  padding: 0px 0px 6px 10px; }
+
+span.ad_type_name_ {
+  color: #000;
+  font-size: 15px;
+  position: absolute;
+  margin: 12px 0px 0px 12px;
+  font-weight: 500; }
+
+.adsensei-ad-type-link {
+  padding: 0px 0px 2px 10px; }
+
+.ad_vendor, .ad_format {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin: 0;
+  z-index: 99;
+  text-align: center;
+  padding-bottom: 18px;
+  padding-top: 5px; }
+
+.adsensei-ad-networks-reports {
+  padding: 60px 50px;
+  max-width: 100%;
+  background: #fff;
+  z-index: 9;
+  position: relative; }
+
+.adsensei-ad-networks-reports ul {
+  padding: 0px;
+  list-style-type: none;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 30px 30px;
+  margin: 0; }
+
+.adsensei-ad-networks-reports li {
+  text-align: center;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;
+  margin-bottom: 0px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+  transition: 0.3s; }
+
+.adsensei_main_ {
+  padding: 0px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 21px 9px;
+  margin: 0; }
+
+.adsensei-ad-networks li:hover span {
+  color: #1A73E8; }
+
+.quad-ad-network-list {
+  display: inline-block;
+  /* width: 100%; */ }
+
+.quad-ad-network-heading {
+  position: relative;
+  top: 50px;
+  left: 20px;
+  font-size: 25px;
+  text-align: center;
+  width: 80%;
+  margin: 0 0 10px 0; }
+
+.adsensei-nav-link {
+  display: block;
+  font-size: 12px;
+  top: 10px;
+  position: relative; }
+
+.adsensei-ad-networks .adsensei_ad_pro {
+  background: linear-gradient(to right, #eb3349, #f45c43);
+  color: #fff;
+  position: relative; }
+
+.adsensei-ad-networks .adsensei_ad_pro:after {
+  content: "PRO";
+  position: absolute;
+  top: -4px;
+  right: 0px;
+  border-radius: 74px;
+  background: white;
+  color: #ec3c48;
+  font-size: 10px;
+  padding: 0 5px;
+  box-shadow: 1px 1px 4px #00000026; }
+
+.adsensei-ad-networks .adsensei_ad_pro img {
+  background: #fff;
+  border-radius: 35px;
+  position: relative;
+  top: 2px; }
+
+.adsensei-ad-networks .adsensei_ad_pro span {
+  color: #fff; }
+
+.adsensei-settings-tab .adsensei-nav-link, .adsensei-ad-tab-wrapper .adsensei-nav-link {
+  top: 0; }
+
+.adsensei-ad-tab-wrapper .adsensei-nav-link {
+  font-size: 22px; }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Jan 28, 2020, 11:41:08 AM
+    Author     : Magazine3
+*/
+.adsensei-side-part {
+  width: 10%; }
+
+.adsensei-modal-part {
+  width: 70%; }
+
+.adsensei-close-ad-modal {
+  float: right;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10px; }
+
+.adsensei-ad-header {
+  height: 27px; }
+
+.adsensei-settings-tab ul {
+  padding: 0; }
+.adsensei-large-popup {
+  position: absolute; }
+
+.view_report {
+  padding: 25px 12px 12px 12px; }
+
+.breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 15px 15px 10px 20px;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #e9ecef;
+  border-radius: .25rem; }
+
+.breadcrumb-item.active {
+  color: #6c757d; }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  color: #6c757d;
+  content: "/"; }
+
+.chart_main_class {
+  padding: 24px; }
+
+.breadcrumb-item {
+  cursor: pointer; }
+
+#report_type, #report_period, #input_based, #report_view_type {
+  width: 200px;
+  margin: 0px 0px 3px 4px; }
+
+.adsensei-select-menu {
+  display: flex; }
+
+.view_report label {
+  margin-right: 9px; }
+
+#adsensei-adsense .adsensei-nav-link strong {
+  color: #005af0; }
+
+#report_view_type {
+  float: right; }
+
+#adsensei_report_table {
+  padding-top: 10px; }
+
+#adsensei_report_table table {
+  border-collapse: collapse; }
+
+#adsensei_report_table table td {
+  border: 1px solid #b4b4b4;
+  padding: 5px 13px; }
+
+#adsensei_report_table table b {
+  font-weight: 700;
+  line-height: 2;
+  font-weight: 600; }
+
+#adsensei_report_table_total {
+  padding-left: 40px; }
+
+#adsensei_report_table_total table {
+  border-collapse: collapse; }
+
+#adsensei_report_table_total table th {
+  border: 1px solid #b4b4b4;
+  padding: 5px 13px; }
+
+#adsensei_report_table_total table td {
+  border: 1px solid #b4b4b4;
+  padding: 5px 13px;
+  padding-right: 52px; }
+
+#adsensei_report_table table tr {
+  display: inherit; }
+
+#adsensei_report_table_total table b {
+  font-weight: 700;
+  line-height: 2;
+  font-weight: 600; }
+
+.adsensei-report-networks h1 {
+  font-size: 15px; }
+
+.adsensei-report-networks {
+  max-width: 100%;
+  background: #fff;
+  z-index: 8;
+  position: relative; }
+
+.adsensei-segment ol.breadcrumb {
+  margin: 0px; }
+
+.canvas_get_pro {
+  position: relative;
+  background: #6c6c6c;
+  z-index: 99999999999999999999999999999999999999999999999; }
+
+.canvas_get_pro #adsensei_get_pro {
+  position: absolute;
+  top: 30%;
+  font-size: 25px;
+  color: #fff;
+  left: 27%;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center; }
+
+.canvas_get_pro #adsensei_get_pro a {
+  font-size: 16px !important;
+  display: block;
+  margin: 0 auto;
+  width: 190px;
+  height: 34px;
+  line-height: 32px; }
+
+.adsensei-ad-networks.ad_logging {
+  padding: 0px; }
+
+.show_btn {
+  padding: 4px 10px 6px 10px;
+  font-size: 14px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer; }
+
+.adsensei-select.view_statsreport {
+  display: -webkit-box;
+  margin-top: 20px; }
+
+.adsensei-select {
+  display: -webkit-box;
+  margin-top: 20px; }
+
+#wpbody {
+  background-color: white; }
+
+#report_period {
+  position: absolute;
+  right: 0;
+  margin-top: -4px; }
+
+tr.top5_ads_click {
+  cursor: pointer;
+  color: #005af0; }
+
+.main_td {
+  padding: 0 !important;
+  border: 0 !important; }
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle, .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow {
+  margin-left: -8px;
+  position: absolute; }
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle, .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow, .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::before, .react-datepicker__year-read-view--down-arrow::before,
+.react-datepicker__month-read-view--down-arrow::before,
+.react-datepicker__month-year-read-view--down-arrow::before {
+  box-sizing: content-box;
+  position: absolute;
+  border: 8px solid transparent;
+  height: 0;
+  width: 1px; }
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::before, .react-datepicker__year-read-view--down-arrow::before,
+.react-datepicker__month-read-view--down-arrow::before,
+.react-datepicker__month-year-read-view--down-arrow::before {
+  content: "";
+  z-index: -1;
+  border-width: 8px;
+  left: -8px;
+  border-bottom-color: #aeaeae; }
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle {
+  top: 0;
+  margin-top: -8px; }
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+  border-top: none;
+  border-bottom-color: #f0f0f0; }
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+  top: -1px;
+  border-bottom-color: #aeaeae; }
+
+.react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle, .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow {
+  bottom: 0;
+  margin-bottom: -8px; }
+
+.react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle, .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow, .react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::before, .react-datepicker__year-read-view--down-arrow::before,
+.react-datepicker__month-read-view--down-arrow::before,
+.react-datepicker__month-year-read-view--down-arrow::before {
+  border-bottom: none;
+  border-top-color: #fff; }
+
+.react-datepicker-popper[data-placement^="top"] .react-datepicker__triangle::before, .react-datepicker__year-read-view--down-arrow::before,
+.react-datepicker__month-read-view--down-arrow::before,
+.react-datepicker__month-year-read-view--down-arrow::before {
+  bottom: -1px;
+  border-top-color: #aeaeae; }
+
+.react-datepicker-wrapper {
+  display: inline-block;
+  padding: 0;
+  border: 0; }
+
+.react-datepicker {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  display: inline-block;
+  position: relative; }
+
+.react-datepicker--time-only .react-datepicker__triangle {
+  left: 35px; }
+
+.react-datepicker--time-only .react-datepicker__time-container {
+  border-left: 0; }
+
+.react-datepicker--time-only .react-datepicker__time,
+.react-datepicker--time-only .react-datepicker__time-box {
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem; }
+
+.react-datepicker__triangle {
+  position: absolute;
+  left: 50px; }
+
+.react-datepicker-popper {
+  z-index: 1; }
+
+.react-datepicker-popper[data-placement^="bottom"] {
+  margin-top: 10px; }
+
+.react-datepicker-popper[data-placement="bottom-end"] .react-datepicker__triangle, .react-datepicker-popper[data-placement="top-end"] .react-datepicker__triangle {
+  left: auto;
+  right: 50px; }
+
+.react-datepicker-popper[data-placement^="top"] {
+  margin-bottom: 10px; }
+
+.react-datepicker-popper[data-placement^="right"] {
+  margin-left: 8px; }
+
+.react-datepicker-popper[data-placement^="right"] .react-datepicker__triangle {
+  left: auto;
+  right: 42px; }
+
+.react-datepicker-popper[data-placement^="left"] {
+  margin-right: 8px; }
+
+.react-datepicker-popper[data-placement^="left"] .react-datepicker__triangle {
+  left: 42px;
+  right: auto; }
+
+.react-datepicker__header {
+  text-align: center;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #aeaeae;
+  border-top-left-radius: 0.3rem;
+  padding-top: 8px;
+  position: relative; }
+
+.react-datepicker__header--time {
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.react-datepicker__header--time:not(.react-datepicker__header--time--only) {
+  border-top-left-radius: 0; }
+
+.react-datepicker__header:not(.react-datepicker__header--has-time-select) {
+  border-top-right-radius: 0.3rem; }
+
+.react-datepicker__year-dropdown-container--select,
+.react-datepicker__month-dropdown-container--select,
+.react-datepicker__month-year-dropdown-container--select,
+.react-datepicker__year-dropdown-container--scroll,
+.react-datepicker__month-dropdown-container--scroll,
+.react-datepicker__month-year-dropdown-container--scroll {
+  display: inline-block;
+  margin: 0 2px; }
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  margin-top: 0;
+  color: #000;
+  font-weight: bold;
+  font-size: 0.944rem; }
+
+.react-datepicker-time__header {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.react-datepicker__navigation {
+  background: none;
+  line-height: 1.7rem;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  width: 0;
+  padding: 0;
+  border: 0.45rem solid transparent;
+  z-index: 1;
+  height: 10px;
+  width: 10px;
+  text-indent: -999em;
+  overflow: hidden; }
+
+.react-datepicker__navigation--previous {
+  left: 10px;
+  border-right-color: #ccc; }
+
+.react-datepicker__navigation--previous:hover {
+  border-right-color: #b3b3b3; }
+
+.react-datepicker__navigation--previous--disabled, .react-datepicker__navigation--previous--disabled:hover {
+  border-right-color: #e6e6e6;
+  cursor: default; }
+
+.react-datepicker__navigation--next {
+  right: 10px;
+  border-left-color: #ccc; }
+
+.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+  right: 95px; }
+
+.react-datepicker__navigation--next:hover {
+  border-left-color: #b3b3b3; }
+
+.react-datepicker__navigation--next--disabled, .react-datepicker__navigation--next--disabled:hover {
+  border-left-color: #e6e6e6;
+  cursor: default; }
+
+.react-datepicker__navigation--years {
+  position: relative;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.react-datepicker__navigation--years-previous {
+  top: 4px;
+  border-top-color: #ccc; }
+
+.react-datepicker__navigation--years-previous:hover {
+  border-top-color: #b3b3b3; }
+
+.react-datepicker__navigation--years-upcoming {
+  top: -4px;
+  border-bottom-color: #ccc; }
+
+.react-datepicker__navigation--years-upcoming:hover {
+  border-bottom-color: #b3b3b3; }
+
+.react-datepicker__month-container {
+  float: left; }
+
+.react-datepicker__year {
+  margin: 0.4rem;
+  text-align: center; }
+
+.react-datepicker__year-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 180px; }
+
+.react-datepicker__year .react-datepicker__year-text {
+  display: inline-block;
+  width: 4rem;
+  margin: 2px; }
+
+.react-datepicker__month {
+  margin: 0.4rem;
+  text-align: center; }
+
+.react-datepicker__month .react-datepicker__month-text,
+.react-datepicker__month .react-datepicker__quarter-text {
+  display: inline-block;
+  width: 4rem;
+  margin: 2px; }
+
+.react-datepicker__input-time-container {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin: 5px 0 10px 15px;
+  text-align: left; }
+
+.react-datepicker__input-time-container .react-datepicker-time__caption {
+  display: inline-block; }
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container {
+  display: inline-block; }
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input {
+  display: inline-block;
+  margin-left: 10px; }
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input {
+  width: auto; }
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type="time"]::-webkit-inner-spin-button,
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type="time"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__input input[type="time"] {
+  -moz-appearance: textfield; }
+
+.react-datepicker__input-time-container .react-datepicker-time__input-container .react-datepicker-time__delimiter {
+  margin-left: 5px;
+  display: inline-block; }
+
+.react-datepicker__time-container {
+  float: right;
+  border-left: 1px solid #aeaeae;
+  width: 85px; }
+
+.react-datepicker__time-container--with-today-button {
+  display: inline;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  position: absolute;
+  right: -72px;
+  top: 0; }
+
+.react-datepicker__time-container .react-datepicker__time {
+  position: relative;
+  background: white;
+  border-bottom-right-radius: 0.3rem; }
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+  width: 85px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom-right-radius: 0.3rem; }
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+  list-style: none;
+  margin: 0;
+  height: calc(195px + (1.7rem / 2));
+  overflow-y: scroll;
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 100%;
+  box-sizing: content-box; }
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item {
+  height: 30px;
+  padding: 5px 10px;
+  white-space: nowrap; }
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item:hover {
+  cursor: pointer;
+  background-color: #f0f0f0; }
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+  background-color: #216ba5;
+  color: white;
+  font-weight: bold; }
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected:hover {
+  background-color: #216ba5; }
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--disabled {
+  color: #ccc; }
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--disabled:hover {
+  cursor: default;
+  background-color: transparent; }
+
+.react-datepicker__week-number {
+  color: #ccc;
+  display: inline-block;
+  width: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  margin: 0.166rem; }
+
+.react-datepicker__week-number.react-datepicker__week-number--clickable {
+  cursor: pointer; }
+
+.react-datepicker__week-number.react-datepicker__week-number--clickable:hover {
+  border-radius: 0.3rem;
+  background-color: #f0f0f0; }
+
+.react-datepicker__day-names,
+.react-datepicker__week {
+  white-space: nowrap; }
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  color: #000;
+  display: inline-block;
+  width: 1.7rem;
+  line-height: 1.7rem;
+  text-align: center;
+  margin: 0.166rem; }
+
+.react-datepicker__month--selected, .react-datepicker__month--in-selecting-range, .react-datepicker__month--in-range,
+.react-datepicker__quarter--selected,
+.react-datepicker__quarter--in-selecting-range,
+.react-datepicker__quarter--in-range {
+  border-radius: 0.3rem;
+  background-color: #216ba5;
+  color: #fff; }
+
+.react-datepicker__month--selected:hover, .react-datepicker__month--in-selecting-range:hover, .react-datepicker__month--in-range:hover,
+.react-datepicker__quarter--selected:hover,
+.react-datepicker__quarter--in-selecting-range:hover,
+.react-datepicker__quarter--in-range:hover {
+  background-color: #1d5d90; }
+
+.react-datepicker__month--disabled,
+.react-datepicker__quarter--disabled {
+  color: #ccc;
+  pointer-events: none; }
+
+.react-datepicker__month--disabled:hover,
+.react-datepicker__quarter--disabled:hover {
+  cursor: default;
+  background-color: transparent; }
+
+.react-datepicker__day,
+.react-datepicker__month-text,
+.react-datepicker__quarter-text,
+.react-datepicker__year-text {
+  cursor: pointer; }
+
+.react-datepicker__day:hover,
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover,
+.react-datepicker__year-text:hover {
+  border-radius: 0.3rem;
+  background-color: #f0f0f0; }
+
+.react-datepicker__day--today,
+.react-datepicker__month-text--today,
+.react-datepicker__quarter-text--today,
+.react-datepicker__year-text--today {
+  font-weight: bold; }
+
+.react-datepicker__day--highlighted,
+.react-datepicker__month-text--highlighted,
+.react-datepicker__quarter-text--highlighted,
+.react-datepicker__year-text--highlighted {
+  border-radius: 0.3rem;
+  background-color: #3dcc4a;
+  color: #fff; }
+
+.react-datepicker__day--highlighted:hover,
+.react-datepicker__month-text--highlighted:hover,
+.react-datepicker__quarter-text--highlighted:hover,
+.react-datepicker__year-text--highlighted:hover {
+  background-color: #32be3f; }
+
+.react-datepicker__day--highlighted-custom-1,
+.react-datepicker__month-text--highlighted-custom-1,
+.react-datepicker__quarter-text--highlighted-custom-1,
+.react-datepicker__year-text--highlighted-custom-1 {
+  color: magenta; }
+
+.react-datepicker__day--highlighted-custom-2,
+.react-datepicker__month-text--highlighted-custom-2,
+.react-datepicker__quarter-text--highlighted-custom-2,
+.react-datepicker__year-text--highlighted-custom-2 {
+  color: green; }
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range,
+.react-datepicker__month-text--selected,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__month-text--in-range,
+.react-datepicker__quarter-text--selected,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__quarter-text--in-range,
+.react-datepicker__year-text--selected,
+.react-datepicker__year-text--in-selecting-range,
+.react-datepicker__year-text--in-range {
+  border-radius: 0.3rem;
+  background-color: #216ba5;
+  color: #fff; }
+
+.react-datepicker__day--selected:hover, .react-datepicker__day--in-selecting-range:hover, .react-datepicker__day--in-range:hover,
+.react-datepicker__month-text--selected:hover,
+.react-datepicker__month-text--in-selecting-range:hover,
+.react-datepicker__month-text--in-range:hover,
+.react-datepicker__quarter-text--selected:hover,
+.react-datepicker__quarter-text--in-selecting-range:hover,
+.react-datepicker__quarter-text--in-range:hover,
+.react-datepicker__year-text--selected:hover,
+.react-datepicker__year-text--in-selecting-range:hover,
+.react-datepicker__year-text--in-range:hover {
+  background-color: #1d5d90; }
+
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__month-text--keyboard-selected,
+.react-datepicker__quarter-text--keyboard-selected,
+.react-datepicker__year-text--keyboard-selected {
+  border-radius: 0.3rem;
+  background-color: #2a87d0;
+  color: #fff; }
+
+.react-datepicker__day--keyboard-selected:hover,
+.react-datepicker__month-text--keyboard-selected:hover,
+.react-datepicker__quarter-text--keyboard-selected:hover,
+.react-datepicker__year-text--keyboard-selected:hover {
+  background-color: #1d5d90; }
+
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__month-text--in-selecting-range,
+.react-datepicker__quarter-text--in-selecting-range,
+.react-datepicker__year-text--in-selecting-range {
+  background-color: rgba(33, 107, 165, 0.5); }
+
+.react-datepicker__month--selecting-range .react-datepicker__day--in-range, .react-datepicker__month--selecting-range
+.react-datepicker__month-text--in-range, .react-datepicker__month--selecting-range
+.react-datepicker__quarter-text--in-range, .react-datepicker__month--selecting-range
+.react-datepicker__year-text--in-range {
+  background-color: #f0f0f0;
+  color: #000; }
+
+.react-datepicker__day--disabled,
+.react-datepicker__month-text--disabled,
+.react-datepicker__quarter-text--disabled,
+.react-datepicker__year-text--disabled {
+  cursor: default;
+  color: #ccc; }
+
+.react-datepicker__day--disabled:hover,
+.react-datepicker__month-text--disabled:hover,
+.react-datepicker__quarter-text--disabled:hover,
+.react-datepicker__year-text--disabled:hover {
+  background-color: transparent; }
+
+.react-datepicker__month-text.react-datepicker__month--selected:hover, .react-datepicker__month-text.react-datepicker__month--in-range:hover, .react-datepicker__month-text.react-datepicker__quarter--selected:hover, .react-datepicker__month-text.react-datepicker__quarter--in-range:hover,
+.react-datepicker__quarter-text.react-datepicker__month--selected:hover,
+.react-datepicker__quarter-text.react-datepicker__month--in-range:hover,
+.react-datepicker__quarter-text.react-datepicker__quarter--selected:hover,
+.react-datepicker__quarter-text.react-datepicker__quarter--in-range:hover {
+  background-color: #216ba5; }
+
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover {
+  background-color: #f0f0f0; }
+
+.react-datepicker__input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%; }
+
+.react-datepicker__year-read-view,
+.react-datepicker__month-read-view,
+.react-datepicker__month-year-read-view {
+  border: 1px solid transparent;
+  border-radius: 0.3rem; }
+
+.react-datepicker__year-read-view:hover,
+.react-datepicker__month-read-view:hover,
+.react-datepicker__month-year-read-view:hover {
+  cursor: pointer; }
+
+.react-datepicker__year-read-view:hover .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__year-read-view:hover .react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-read-view:hover .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view:hover .react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view:hover .react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-year-read-view:hover .react-datepicker__month-read-view--down-arrow {
+  border-top-color: #b3b3b3; }
+
+.react-datepicker__year-read-view--down-arrow,
+.react-datepicker__month-read-view--down-arrow,
+.react-datepicker__month-year-read-view--down-arrow {
+  border-top-color: #ccc;
+  float: right;
+  margin-left: 20px;
+  top: 8px;
+  position: relative;
+  border-width: 0.45rem; }
+
+.react-datepicker__year-dropdown,
+.react-datepicker__month-dropdown,
+.react-datepicker__month-year-dropdown {
+  background-color: #f0f0f0;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 30px;
+  z-index: 1;
+  text-align: center;
+  border-radius: 0.3rem;
+  border: 1px solid #aeaeae; }
+
+.react-datepicker__year-dropdown:hover,
+.react-datepicker__month-dropdown:hover,
+.react-datepicker__month-year-dropdown:hover {
+  cursor: pointer; }
+
+.react-datepicker__year-dropdown--scrollable,
+.react-datepicker__month-dropdown--scrollable,
+.react-datepicker__month-year-dropdown--scrollable {
+  height: 150px;
+  overflow-y: scroll; }
+
+.react-datepicker__year-option,
+.react-datepicker__month-option,
+.react-datepicker__month-year-option {
+  line-height: 20px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.react-datepicker__year-option:first-of-type,
+.react-datepicker__month-option:first-of-type,
+.react-datepicker__month-year-option:first-of-type {
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem; }
+
+.react-datepicker__year-option:last-of-type,
+.react-datepicker__month-option:last-of-type,
+.react-datepicker__month-year-option:last-of-type {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem; }
+
+.react-datepicker__year-option:hover,
+.react-datepicker__month-option:hover,
+.react-datepicker__month-year-option:hover {
+  background-color: #ccc; }
+
+.react-datepicker__year-option:hover .react-datepicker__navigation--years-upcoming,
+.react-datepicker__month-option:hover .react-datepicker__navigation--years-upcoming,
+.react-datepicker__month-year-option:hover .react-datepicker__navigation--years-upcoming {
+  border-bottom-color: #b3b3b3; }
+
+.react-datepicker__year-option:hover .react-datepicker__navigation--years-previous,
+.react-datepicker__month-option:hover .react-datepicker__navigation--years-previous,
+.react-datepicker__month-year-option:hover .react-datepicker__navigation--years-previous {
+  border-top-color: #b3b3b3; }
+
+.react-datepicker__year-option--selected,
+.react-datepicker__month-option--selected,
+.react-datepicker__month-year-option--selected {
+  position: absolute;
+  left: 15px; }
+
+.react-datepicker__close-icon {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0px 6px 0px 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle; }
+
+.react-datepicker__close-icon::after {
+  cursor: pointer;
+  background-color: #216ba5;
+  color: #fff;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  padding: 2px;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  content: "\D7"; }
+
+.react-datepicker__today-button {
+  background: #f0f0f0;
+  border-top: 1px solid #aeaeae;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 0;
+  clear: left; }
+
+.react-datepicker__portal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 2147483647; }
+
+.react-datepicker__portal .react-datepicker__day-name,
+.react-datepicker__portal .react-datepicker__day,
+.react-datepicker__portal .react-datepicker__time-name {
+  width: 3rem;
+  line-height: 3rem; }
+
+@media (max-width: 400px), (max-height: 550px) {
+  .react-datepicker__portal .react-datepicker__day-name,
+  .react-datepicker__portal .react-datepicker__day,
+  .react-datepicker__portal .react-datepicker__time-name {
+    width: 2rem;
+    line-height: 2rem; } }
+
+.react-datepicker__portal .react-datepicker__current-month,
+.react-datepicker__portal .react-datepicker-time__header {
+  font-size: 1.44rem; }
+
+.react-datepicker__portal .react-datepicker__navigation {
+  border: 0.81rem solid transparent; }
+
+.react-datepicker__portal .react-datepicker__navigation--previous {
+  border-right-color: #ccc; }
+
+.react-datepicker__portal .react-datepicker__navigation--previous:hover {
+  border-right-color: #b3b3b3; }
+
+.react-datepicker__portal .react-datepicker__navigation--previous--disabled, .react-datepicker__portal .react-datepicker__navigation--previous--disabled:hover {
+  border-right-color: #e6e6e6;
+  cursor: default; }
+
+.react-datepicker__portal .react-datepicker__navigation--next {
+  border-left-color: #ccc; }
+
+.react-datepicker__portal .react-datepicker__navigation--next:hover {
+  border-left-color: #b3b3b3; }
+
+.react-datepicker__portal .react-datepicker__navigation--next--disabled, .react-datepicker__portal .react-datepicker__navigation--next--disabled:hover {
+  border-left-color: #e6e6e6;
+  cursor: default; }

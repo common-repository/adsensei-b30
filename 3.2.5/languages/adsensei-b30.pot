@@ -1,0 +1,341 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AdSensei B30\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-04 18:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1\n"
+"X-Domain: adsensei-b30"
+
+#: home_text_admin.php:12
+msgid "--HINAKA--"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:141
+msgid "A mitad del contenido"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:181 includes/adsenseib30_admin_page.php:184
+msgid "Activar"
+msgstr ""
+
+#: adSenseiB30.php:324
+msgid "Adsense/Contenido entre parrafos"
+msgstr ""
+
+#. Name of the plugin
+msgid "AdSensei B30"
+msgstr ""
+
+#: home_text_admin.php:74 includes/adsenseib30_admin_page.php:83
+#: includes/home_text_admin.php:73
+msgid "Ajustes guardados"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:141
+msgid "Al final del contenido"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:215
+msgid "Alineación anuncio: "
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:141
+msgid "Antes del primer párrafo"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:141
+msgid "Antes del último párrafo"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:170 includes/adsenseib30_admin_page.php:259
+msgid "Anuncio"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:38
+msgid "Anuncios ninja a golpe de katana allá dónde quieras"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:58
+msgid "Aplicar a todas"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:251
+msgid "Categoria"
+msgstr ""
+
+#: includes/categories_text_admin.php:101
+msgid "Categoría"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:253
+msgid "Categoría en la que se mostrará el anuncio"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:146
+msgid "Centrado"
+msgstr ""
+
+#: includes/ninjas_page.php:30
+msgid ""
+"Coloca texto en tu página Home a la vez que mantienes tus últimas "
+"entradas/posts. Haz una página optimizada para SEO"
+msgstr ""
+
+#: includes/ninjas_page.php:38
+msgid ""
+"Coloca textos en tus categorías prar poder rankearlas con mayor facilidad en "
+"los buscadores"
+msgstr ""
+
+#: adSenseiB30.php:324 includes/ninjas_page.php:24
+msgid "Coloca tus Anuncios"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:208
+msgid "Colocar anuncio: "
+msgstr ""
+
+#: includes/utils.php:115
+msgid "Creado con pasión y trabajo duro por:"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:201
+msgid "Código adsense"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:146
+msgid "Derecha"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:146
+msgid "Derecha envuelto"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:100
+msgid "Desactiva el uso de AdSensei en un post/página en concreto"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:180 includes/adsenseib30_admin_page.php:183
+msgid "Desactivar"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:141
+msgid "Después del primer H2"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:141
+msgid "Después del primer H3"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:140
+msgid "Después del párrafo "
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:141
+msgid "Después del segundo H2"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:141
+msgid "Después del segundo H3"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:141
+msgid "Después del tercer H2"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:141
+msgid "Después del tercer H3"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:142
+msgid "Dispositivos móviles y PCs"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:244
+msgid "Dispositivos visualización"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:176
+msgid "Editar nombre"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:102
+msgid "Ejemplo:"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:230
+msgid "El margen que quieras (de 0 a 100)"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:73
+msgid "Guardar Opciones"
+msgstr ""
+
+#: home_text_admin.php:27 includes/adsenseib30_admin_page.php:47
+#: includes/categories_text_admin.php:108 includes/home_text_admin.php:26
+msgid "Guardar opciones"
+msgstr ""
+
+#: includes/home_text_admin.php:11
+msgid "HINAKA"
+msgstr ""
+
+#: includes/ninjas_page.php:29
+msgid "Hinaka"
+msgstr ""
+
+#: adSenseiB30.php:323
+msgid "Inicio"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:203
+msgid "Inserta aquí el código adsense"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Inserta de manera fácil, rápida y flexible anuncios de AdSense por todo tu "
+"blog"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:103
+msgid "Inserta el anuncio 2 dónde hayas escrito el shortcode."
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:101
+msgid "Inserta el anuncio x en el lugar dónde pongas el shortcode"
+msgstr ""
+
+#: adSenseiB30.php:309
+msgid "Introduce un nuevo nombre para este anuncio"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:146
+msgid "Izquierda"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:146
+msgid "Izquierda envuelto"
+msgstr ""
+
+#: includes/categories_text_admin.php:13
+msgid "KABUTO"
+msgstr ""
+
+#: includes/ninjas_page.php:37
+msgid "Kabuto"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:35
+msgid "KABUZA"
+msgstr ""
+
+#: includes/ninjas_page.php:21
+msgid "Kabuza"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:223
+msgid "Margen"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:237
+msgid "Mostrar anuncio en:"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:210
+msgid "Posición dónde saldrá el anuncio"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:153
+msgid "Posts"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:239
+msgid "Posts / Páginas / Posts + Páginas"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:153
+msgid "Posts y páginas"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:98
+msgid ""
+"Puedes insertar cualquier anuncio, en la posición que quieras, mediante su "
+"shortcode:"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:153
+msgid "Páginas"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:229
+msgid "píxeles"
+msgstr ""
+
+#: includes/ninjas_page.php:22
+msgid ""
+"Rápido y eficaz. Coloca anuncios de Adsensei, Amazon o cualquier tipo de "
+"código HTML por toda tu web"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:97
+msgid "SHORTCODES"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:142
+msgid "Sólo dispositivos móviles"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:142
+msgid "Sólo PCs"
+msgstr ""
+
+#: home_text_admin.php:51 includes/home_text_admin.php:50
+msgid "Texto a añadir en home"
+msgstr ""
+
+#: adSenseiB30.php:326 includes/ninjas_page.php:40
+msgid "Texto en Categorías"
+msgstr ""
+
+#: adSenseiB30.php:325 includes/ninjas_page.php:32
+msgid "Texto en Home"
+msgstr ""
+
+#: includes/categories_text_admin.php:16
+msgid "Texto en tus categorías a golpe de katana"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:246
+msgid "Tipo de dispositivos en los que se visualizará el anuncio"
+msgstr ""
+
+#: includes/categories_text_admin.php:62
+msgid "Todos los ajustes han sido guardados"
+msgstr ""
+
+#: home_text_admin.php:15 includes/home_text_admin.php:14
+msgid "Una letal ninja invisible en tu Home"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:153
+msgid "Usar sólo como shortcode"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:217
+msgid "Ver ejemplos"
+msgstr ""
+
+#: includes/adsenseib30_admin_page.php:48
+msgid "VER SHORTCODES"
+msgstr ""
